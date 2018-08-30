@@ -1,0 +1,3 @@
+caffemodel/ocr8100/_iter_406000.caffemodel 0.955311973019
+caffemodel/ocr8100/_iter_428000.caffemodel 0.948523206751
+caffemodel/ocr8100/_iter_406000.caffemodel 0.95611814346

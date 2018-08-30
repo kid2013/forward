@@ -1,0 +1,7 @@
+num_output:#1#
+height:#32#
+width:#32#
+mean_type:#0#
+mean_value:#0#
+mean_map:#null#
+scale:#1#
