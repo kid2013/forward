@@ -15,7 +15,7 @@ def readfile2list(file_path):
 
 
 def  test(img_path_list, caffe_model, deploy):
-    GPU_ID = 1
+    GPU_ID = 0
     caffe.set_mode_gpu()
     caffe.set_device(GPU_ID)
     net = caffe.Net(deploy, caffe_model, caffe.TEST )

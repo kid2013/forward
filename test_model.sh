@@ -1,7 +1,7 @@
 #!/bin/bash
 
-prefix=/home/wanwuming/ocr8100/model/snap_shot
-deploy_prefix=/home/wanwuming/forward/deploy/ocr8100/deploy
+prefix=/home/username/ocr8100/model/snap_shot
+deploy_prefix=/home/username/forward/deploy/ocr8100/deploy
 img_list=img_file/180709_alnum_test.list
 for  i in $(seq 7 1 8)
 do

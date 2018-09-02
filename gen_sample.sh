@@ -5,9 +5,9 @@ flag="test"
 
 for  i in `seq  1000`
 do
-    cp /ssd/wanwuming/narrow/$flag/$i/$flag_*_1_*.jpg pos_img
+    cp /ssd/username/narrow/$flag/$i/$flag_*_1_*.jpg pos_img
 done
-# cp /ssd/wanwuming/narrow/neg/$flag/$flag_0_0_*0*.jpg  neg_img
+# cp /ssd/username/narrow/neg/$flag/$flag_0_0_*0*.jpg  neg_img
 
 ls -l neg_img | awk '{print $9}' > neg.list
 ls -l pos_img | awk '{print $9}' > pos.list
